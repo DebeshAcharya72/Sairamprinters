@@ -4,10 +4,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "postinstall": "npm approve-scripts esbuild && npm rebuild esbuild"
+  "dev": "vite",
+  "build": "chmod +x node_modules/.bin/vite && vite build",
+  "preview": "vite preview"
   },
   "dependencies": {
     "framer-motion": "^11.0.8",
